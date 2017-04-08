@@ -22,6 +22,18 @@ group2,test4,3307
 docker run --name some-mysql -v /my/custom:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
 ````
 
+#### Docker optimized MySQL install
+    ````
+    /usr/bin/my_print_defaults
+    /usr/bin/mysql
+    /usr/bin/mysql_config
+    /usr/bin/mysql_install_db
+    /usr/bin/mysql_tzinfo_to_sql
+    /usr/bin/mysql_upgrade
+    /usr/bin/mysqldump
+    /usr/sbin/mysqld
+    ````
+
 #### Create a MySQL user account 
 ````
 GRANT REPLICATION CLIENT ON *.*  to {USER}@{MONITOR_SERVER_IP} IDENTIFIED BY '{PASSWORD}';
