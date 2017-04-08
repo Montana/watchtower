@@ -50,5 +50,7 @@ python watchtower.py serverlist.txt USER PASS
 ![Mode_InnoDB](screenshots/screenshot1.png "InnoDB Mode")
 #### replication mode
 ![Mode_Replication](screenshots/screenshot2.png "Replication Mode")
+#### redundancy
+![Mode_Redundancy](screenshots/redundancy.png "redundancy")
 
 Written by Montana Mendy for Prowl, LLC.
