@@ -25,7 +25,7 @@ python watchtower.py serverlist.txt USER PASS
 ````
 
 ![Mode_InnoDB](screenshots/screenshot1.png "InnoDB Mode")
-#### Replication Mode
+#### replication Mode
 ![Mode_Replication](screenshots/screenshot2.png "Replication Mode")
 
 Written by Montana Mendy for Prowl, LLC.
