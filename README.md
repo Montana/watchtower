@@ -19,7 +19,7 @@ group2,test4,3307
 </pre>
 #### Running it with a custom MySQL config file using Docker 
 
-The MySQL startup configuration in these Docker images is specified in the file /etc/my.cnf. If you want to customize this configuration for your own purposes, you can create your alternative configuration file in a directory on the host machine and then mount this file in the appropriate location inside the MySQL container, effectively replacing the standard configuration file.
+The MySQL startup configuration in these Docker images is specified in the file /etc/my.cnf. If you want to customize this configuration for your own purposes, you can create your alternative configuration file in a directory on the host machine and then mount this file in the appropriate location inside the MySQL container, effectively replacing the standard configuration file
 <pre>docker run --name some-mysql -v /my/custom:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
 </pre>
 
