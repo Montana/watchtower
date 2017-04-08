@@ -1,3 +1,5 @@
+![watchtower](https://pbs.twimg.com/profile_images/657129189322059776/PCo6mdLg.png)
+
 Watchtower (for MySQL + Docker)
 ======================
 
