@@ -15,6 +15,11 @@ group1,test2,3306
 group2,test3,3307
 group2,test4,3307
 ```
+#### Running it with a custom MySQL file using Docker 
+````
+docker run --name some-mysql -v /my/custom:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+````
+
 #### Create a MySQL user account 
 ````
 GRANT REPLICATION CLIENT ON *.*  to {USER}@{MONITOR_SERVER_IP} IDENTIFIED BY '{PASSWORD}';
