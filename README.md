@@ -9,7 +9,7 @@ Watchtower is a Python application designed for monitoring multiple MySQL instan
 
 #### Usage
 
-Server list file is a CSV file that contains the Prowl group name, the Prowl hostname as well as the MySQL port, assuming your server list file is named "serverlist" <pre>cat</pre> into it 
+Server list file is a CSV file that contains the Prowl group name, the Prowl hostname as well as the MySQL port, assuming your server list file is named "serverlist" ````cat```` into it 
 
 <pre>cat serverlist.txt
 group1,test1,3306
